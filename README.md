@@ -1,4 +1,4 @@
-# Mastermind Kata
+# Mastermind Kata 🌱
 
 Source: http://codingdojo.org/kata/Mastermind/
 

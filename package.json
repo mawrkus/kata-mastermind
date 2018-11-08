@@ -1,0 +1,31 @@
+{
+  "name": "kata-mastermind",
+  "version": "0.1.0",
+  "author": "mawrkus <web@sparring-partner.be>",
+  "description": "The Mastermind Kata",
+  "license": "MIT",
+  "main": "src/index.js",
+  "public": false,
+  "scripts": {
+    "lint": "eslint src",
+    "pretest": "npm run lint",
+    "test": "jest --coverage",
+    "tdd": "jest --watch --verbose"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules/"
+    ],
+    "testRegex": "/__tests__/.*\\.spec\\.js$"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jest": "^22.0.0",
+    "jest": "^23.6.0"
+  }
+}
